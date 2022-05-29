@@ -1,0 +1,43 @@
+th,
+td,
+p,
+button {
+  font-family: "Noto Sans", sans-serif;
+}
+
+th {
+  height: 100px;
+}
+
+table,
+th,
+td {
+  border: solid 3px black;
+  border-collapse: collapse;
+  padding: 2px 3px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+.show-table {
+  font-family: "Noto Sans", sans-serif;
+}
+.main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_div {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10p;
+  }
+}
